@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    
+    <!-- local css -->
+    <link rel="stylesheet" href="./signUp.css">
+    <!-- font Awesome script -->
+    <script src="https://kit.fontawesome.com/7b74d603a3.js" crossorigin="anonymous"></script>
+    <!-- boosttrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- googlefont -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- <img src="./image/Ellipse 1.png" alt=""> -->
+        <div class="container Container_body">
+            <div class="row" style="    height: 700px;">
+                <div class="col-md-6 left_content">
+                    <img src="./image/Welcom.png" alt=""> 
+                    <p>Already have an account? <a href="./signIn.html">Sign In <i class="fas fa-arrow-right"></i></a></p>                        
+                </div>
+                <div class="col-md-6 p-0 right_content" style="border-left: 1px solid gray;">
+                    <div class="body_form">
+                        <div class="header">
+                            <img src="./image/logo.png" alt="">
+                            <p>sign up</p>
+                        </div>
+                        <div class="middle">
+                            <p>follow Easy Steps</p>
+                            <form id="form" method="POST" action="https://preparationplus.in/authorization/signup">
+                            <!-- <form id="form"> -->
+                                <div class="middle_form">
+                                    <label for="f_name">First Name  <br>
+                                        <input type="text" name="f_name" placeholder="First Name">
+                                    </label>
+                                    <label for=l_name">Last Name <br>
+                                        <input type="text" name="l_name" placeholder="Last Name">
+                                    </label>
+                                    <label for="email">Email  Address <br>
+                                        <input type="email" name="email" placeholder="Email Address">
+                                    </label>
+                                    <label for="phone">Phone <br>
+                                        <input type="tel" name="phone" placeholder="1234567890">
+                                    </label>
+                                    <label for="password">Password <br>
+                                        <input type="password" name="password" placeholder="******">
+                                    </label>
+                                    <label for="password">Confirm Password <br>
+                                        <input type="password" name="password" placeholder="*******">
+                                    </label>
+                                </div>
+                                <div class="box_check">
+                                    <input type="checkbox" required >
+                                    <label for="ckeckbox">I'm in for emails with existing discounts and personalized recommendations</label>
+                                </div>
+                                <input id="btnSubmit" class="signup_btn" type="submit" value="Sign Up">
+                                <!-- <button >Sign Up</button> -->
+                            </form>
+                            <div class="footer">
+                                <p>by singning up, you agree to our Terms <span>and Privacy Policy</span></p>
+                                
+                            </div>
+                        </div>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jquery -->
+    <script src="http://code.jquery.com//jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!-- local JS -->
+    <script src="submit.js" type="text/javascript"></script>
+     <!-- bootstrap JS -->
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    
+</body>
+</html>

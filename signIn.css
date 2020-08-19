@@ -1,0 +1,164 @@
+/* font-family: 'Montserrat', sans-serif; */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+input{
+    border: none;
+    
+}
+button{
+    border: none;
+}
+.Container_body{
+    width: 80%;
+    height: 598px;
+    margin: 50px 0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 28px 0px rgba(0,0,0,0.2);
+    overflow: hidden; 
+}
+.left_content{
+    border-right: 1px solid black;
+    padding: 0px !important;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    background: #d2d2d244;
+}
+.body_form{
+    padding: 50px 0;
+}
+.header{
+    margin-top:10px;
+}
+.header img{
+    width: 100px;
+    padding-top: 0px;
+    box-shadow: 0px 1px 24px -7px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.header p{
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px 0px 0px 20px;
+    color: #424141;
+}
+.middle{
+    padding: 0 30px;
+    text-align: left;
+}
+.middle p{
+    text-align: left;
+    padding: 0px !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.email label,.pass label{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px 11px;
+}
+.email label input,.pass label input{
+    width: 300px !important;
+    border-bottom: 1px solid #424141;;
+    min-width: 200px;
+    padding: 12px;
+    border-radius: 0 !important;
+    transition: ease-in-out 0.3s ;
+    background: transparent;
+    padding-bottom: 4px;
+    background: transparent;
+}
+.email label i,.pass label i{
+    font-size: 20px;
+}
+.email label input:focus,.pass label input:focus{
+    /* transition: ease-in-out 0.3s ; */
+    outline: none;
+    border-bottom: 2px solid #6C63FF;
+    border-radius: 5px !important;
+    box-shadow: inset 0px 2px 8px 0px rgba(108,99,255,0.4);
+}
+.middle_footer{
+    margin: 20px 0;
+}
+.middle_footer label{
+    font-size: 15px;
+}
+.signin {
+    margin-top: 10px;
+    width: 80%;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #d2d2d244;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 7px -4px rgba(0,0,0,0.5);
+    transition: ease-in-out 0.5s ;
+}
+.signin:hover,
+.signin:active,
+.signin:focus{
+    outline: none;
+    box-shadow:0px 0px 6px 0px rgba(0,0,0,0.5);
+    background: #f5cece;
+}
+.footer p span {
+    font-weight: 400;
+    padding-right: 5px;
+}
+.footer p{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: left;
+}
+.footer p a{
+    color: #39374d;
+    text-decoration: none;
+}
+.nxt_btn{
+    padding: 0px;
+    background: linear-gradient(270deg, #D6D5D5 0%, rgba(255, 179, 179, 0.395833) 99.99%, rgba(129, 61, 61, 0) 100%);
+}
+.nxt_btn svg{
+    margin-top: 60px;
+    width: 80%;
+}
+.nxt_btn p{
+    width: 100%;
+    margin-top: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.nxt_btn p a{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 15px;
+    color: #424141;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+.nxt_btn p a i{ 
+    color: #6c63ff;
+    padding: 0 5px;
+}
+.nxt_btn p a:active,
+.nxt_btn p a:focus,
+.nxt_btn p a:hover{
+    transition: ease-in-out 0.5s;
+    background-color: #39374D;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border: 1px solid #39374D;
+}
